@@ -6,7 +6,13 @@ Windows client for competitive Terraria speedruns and bingo draftout races.
 
 Download the latest version only from [Releases](TerrariaRanked/releases/latest). Do not download client files from unknown mirrors or private messages.
 
-Each release contains the client installer and a `SHA256SUMS.txt` file.
+Place TerrariaRanked.exe in your Terraria Steam folder.
+
+The default folder is:
+
+C:\Program Files (x86)\Steam\steamapps\common\Terraria
+
+To find the exact folder: in Steam, right-click Terraria → Manage → Browse local files.
 
 ## Community and support
 
