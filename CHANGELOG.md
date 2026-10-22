@@ -2,6 +2,121 @@
 
 All notable client changes are listed here.
 
+# 0.8.0
+
+* Improved the "fair enemy spawns" system: enemy type selection is now deterministic and depends on multiple parameters while preserving vanilla spawn logic
+* Changed NPC arrival timing: it is now deterministic for all players and depends on the total number of walls in the house instead of the house location
+* Optimized match history and statistics calculation for large amounts of data
+* Removed the "Encounter Tim" bingo goal
+* Made the time between sitting on a toilet and receiving a poo block deterministic
+* Removed the "block events" option from room creation
+* Minor UI and localization fixes
+
+# 0.7.10
+
+* Added Russian localization
+* Added hints for some bingo goals
+* Expanded the seed pool for filtered speedrun categories
+* UI changes
+* Fixed tracking for the "Put X Unique Critters in a Terrarium or Bottle" bingo goal
+* Jungle Spores now count as a mushroom for the "Obtain X Unique Mushrooms" bingo goal
+
+# 0.7.8-0.7.9
+
+* Added new unranked speedrun categories:
+  * Random Item
+  * Full Inventory
+  * Edge of the World
+  * Torch God
+  * Terra Blade
+  * Zenith
+  * Goblin / Pirate / Martian Invasions
+  * Frost / Pumpkin Moon
+  * OOA T3
+* Plantera's Bulb now spawns within 200 blocks of the Golem Temple door
+* Expanded the seed pool for filtered speedrun categories
+* Fixed getting stuck in the lobby when changing seeds or loading a new unranked game
+
+# 0.7.7
+
+* Updated to 1.4.5.8
+* Added filtered seeds for all ranked speedrun categories
+  * **ML**
+    * Pyramid with an accessory and at least one gold pile
+    * Deep jungle main
+    * At least one Life Crystal in main
+    * At least one Crimson biome on the Dungeon side
+  * **APHBAO**
+    * Snow hillcave with Deer Thing
+    * Deep jungle main
+    * At least two Life Crystals in main
+    * Suspicious Looking Eye in main
+    * Ruby in the snow hillcave or main
+  * **NE**
+    * Close hillcave with at least one wooden chest
+    * Close Crimson
+    * Muramasa in the first Dungeon chest
+    * Deep jungle main
+  * **EOC**
+    * Close hillcave or jungle
+    * Suspicious Looking Eye in the hillcave or in main
+* Added a seed description before the match starts
+* Increased the Bingo World View range to 150 blocks in both directions
+* Fixed the fullscreen bingo board hotkey resetting
+* Fixed getting stuck in menu
+* Fixed FPS affecting ghost movement speed in World View
+* Fixed character data carrying over on seed changes
+* Fixed unable to use chat after match
+* UI fixes
+
+# 0.7.6
+
+- Changed how match history is displayed for matches with 3 or more players
+  - In speedruns, you can now compare your splits with a specific player
+  - In bingo, completed goals are now highlighted correctly
+- Added new bingo goals
+  - Spawn an Enemy from a Statue
+  - Kill a Ghost
+  - Get a Voice Accessory
+  - Acquire 5/10 Unique Statues
+  - Acquire 3/6/10 Unique Paintings
+- Fixed tracking for a couple of bingo goals
+- Changed the icons for a couple of bingo goals
+- Added more splits to the ML speedrun
+
+# 0.7.5
+
+- Updated to 1.4.5.7
+
+# 0.7.4
+
+- Added an Elo change screen at the end of ranked matches and a standard end game screen for custom matches
+- Changed the splits for Night’s Edge
+- Minor UI changes and bug fixes
+
+# 0.7.3
+
+- Added discord bot
+- Fixed seed changed option doesn't work (probably, I haven't tested it)
+- Fixed completed goals don't appear in chat
+
+# 0.7.2
+
+- Fixed an issue with different reforges on starting items
+- Fixed an issue that could prevent ranked matches from starting
+- Fixed tracking for:
+  - Put 5/10 Unique Critters in a Terrarium or Bottle
+  - Defeat 3/5 Unique Bosses or Mini-bosses
+  - Kill-enemy-related goals being completed by killing critters
+- Renamed several goals
+- Fixed an issue where no sound would play when an opponent completed a goal
+
+# 0.7.1
+
+- Fixed the character from the previous match being retained after a seed change (hopefully)
+- Fixed an issue that prevented World View from opening (hopefully)
+- Some goals and their variations can no longer appear in ranked lobbies with low-ranked players
+
 # 0.7.0
 
 - Added a **World View** feature during the draft phase. The world is completely frozen, you spawn as a ghost, and you can fly up to 100 blocks to the left and right
